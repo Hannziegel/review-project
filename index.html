@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="title">Generic Form</h1>
+    <p id="description">Short explanation...</p>
+
+    <form id="survey-form">
+      <label for="name-label" id="name-label">
+        Name
+        <input placeholder="name" type="text" id="name" required />
+      </label>
+
+      <label for="email-label" id="email-label">
+        email
+        <input placeholder="email@emai.com" type="email" id="email" required />
+      </label>
+
+      <label for="id-number" id="number-label">
+        <span>Generic question 1?</span>
+        <input placeholder="1 - 5" type="number" id="number" min="1" max="5" />
+      </label>
+
+      <label for="" id="dropdown-label">
+        <span>Generic question 2?</span>
+        <select name="selected" id="dropdown">
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </select>
+      </label>
+
+      <label for="" id="radio-buttons">
+        <span>Generic question 3?</span>
+        <fieldset>
+          <span>A</span>
+          <input type="radio" name="one" value="1" />
+          <input type="radio" name="two" value="2" />
+          <input type="radio" name="three" value="3" />
+        </fieldset>
+        <fieldset>
+          <span>B</span>
+          <input type="radio" name="one" value="1" />
+          <input type="radio" name="two" value="2" />
+          <input type="radio" name="three" value="3" />
+        </fieldset>
+      </label>
+
+      <label for="" id="checkbox">
+        <span>Generic question 3?</span>
+        <input type="checkbox" name="" id="" value="1" />
+        <input type="checkbox" name="" id="" value="2" />
+        <input type="checkbox" name="" id="" value="3" />
+        <input type="checkbox" name="" id="" value="4" />
+        <input type="checkbox" name="" id="" value="5" />
+      </label>
+
+      <label for="" id="textarea-label">
+        <span>Generic question 4?</span>
+        <textarea name="" id="" cols="30" rows="10"> </textarea>
+      </label>
+
+      <input type="submit" value="submit" id="submit" />
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>

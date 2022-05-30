@@ -1,0 +1,14 @@
+*{
+    text-align: center;
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+
+#survey-form > *{
+    margin: 10px;
+}
